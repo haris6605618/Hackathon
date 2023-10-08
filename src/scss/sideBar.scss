@@ -1,0 +1,23 @@
+#sideBar {
+    background-color: #f1f1f1e8;
+    
+}
+#navigationMenu {
+    background-color: transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.sideButtons{
+    transition: all 0.1s ease-in;
+}
+.sideButtons:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: rgb(76, 126, 171);
+}
+.sideButtons.active{
+    color: white;
+    background-color: rgb(103, 187, 255);
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 ,0.2);
+
+}
